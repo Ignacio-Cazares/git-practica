@@ -74,6 +74,32 @@ Porque contiene todas las dependencias instaladas y puede ocupar mucho espacio, 
 Suele utilizarse para guardar variables de entorno y datos de configuración.
 
 
+# ¿Qué diferencia existe entre git add y git commit?
+git add prepara los cambios y los coloca en el Staging Area. git commit guarda esos cambios preparados de forma permanente en el historial del repositorio.
+
+# ¿Qué ventaja tiene realizar varios commits pequeños en lugar de un solo commit grande?
+Permite llevar un historial más ordenado, identificar con mayor facilidad qué cambio causó un problema y regresar solamente a una modificación específica si es necesario.
+
+# ¿Qué diferencia existe entre Git y GitHub?
+Git es el sistema de control de versiones que administra los cambios del proyecto. GitHub es una plataforma en línea donde se pueden almacenar repositorios Git y colaborar con otras personas.
+
+# ¿Qué problema resuelven las ramas?
+Permiten trabajar en nuevas funciones, correcciones o pruebas sin modificar directamente la versión principal del proyecto. Después, los cambios pueden integrarse mediante un merge.
+
+# ¿Qué información no debería normalmente almacenarse en Git?
+No deberían guardarse contraseñas, tokens, claves de APIs, credenciales de bases de datos u otra información privada. Por eso archivos como .env normalmente se agregan al .gitignore.
+
+# ¿Qué ocurriría si borras tu proyecto local pero está publicado en GitHub?
+El proyecto puede recuperarse utilizando git clone, ya que GitHub conserva los archivos y el historial de commits que hayan sido enviados al repositorio remoto.
+
+# ¿Por qué Git es especialmente importante cuando varias personas trabajan sobre el mismo proyecto?
+Porque permite que varias personas trabajen simultáneamente, mantener un historial de quién realizó cada cambio, utilizar ramas separadas y posteriormente combinar el trabajo de todos de manera controlada.
+
+# ¿Cuál es la diferencia entre git clone, git pull y git push?
+git clone descarga por primera vez una copia completa de un repositorio remoto. git pull descarga e integra cambios nuevos del repositorio remoto en una copia que ya tienes. git push envía tus commits locales al repositorio remoto.
+
+# ¿Por qué un commit no aparece automáticamente en GitHub?
+Porque git commit guarda los cambios únicamente en el repositorio local de tu computadora. Para enviarlos a GitHub es necesario realizar un git push.
 
 
 
